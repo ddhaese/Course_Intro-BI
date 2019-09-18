@@ -42,7 +42,7 @@ Voorbeelden prescriptief:
 
 Voorbeelden AI:
 
-- Het systeem voorspeld dat Pers 3A aan onderhoud toe is en heeft de planning aangepast. Ik heb het automatisch gegenereerd rapport nagekeken en alles lijkt in orde dus ga ik de planningwijziging niet ongedaan maken.
+- Het systeem voorspelt dat Pers 3A aan onderhoud toe is en heeft de planning aangepast. Ik heb het automatisch gegenereerd rapport nagekeken en alles lijkt in orde dus ga ik de planningwijziging niet ongedaan maken.
 - Om de seizoens-afhankelijke variatie in de verkoop in rekening te brengen is de digitale agent beginnen onderhandelen met onze voornaamste distributeur. Het resultaat is dat er een extra transport zal plaatsvinden elke maandag en donderdag en dat we een extra korting van 5% kunnen genieten.
 
 Er bestaan meerdere versies van zulke maturity modellen, maar het gaat dus steeds om een poging de data-geletterdheid van een onderneming te kwantificeren.
