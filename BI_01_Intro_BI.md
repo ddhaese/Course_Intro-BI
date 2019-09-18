@@ -37,7 +37,7 @@ De meest vooruitstrevende vorm van analyse is de prescriptieve analyse. Hier kom
 
 Voorbeelden prescriptief:
 
-- Op basis van de weersvoorspellingen verteld ons systeem (de agent) me dat er volgende week 2300L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
+- Op basis van de weersvoorspellingen vertelt ons systeem (de agent) me dat er volgende week 2300L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
 - De verkoop van dit product lijkt vrij goed voorspelbaar te zijn door Google trends statistieken. Het systeem voorspeld nu dat de verkoop een sterke terugval gaat krijgen. De tegenvallende Google trend cijfers lijken me echter eerder gestuurd te zijn door de voorbije vakantiedagen. Ik vraag aan onze datawetenschappers om het algoritme aan te passen zodat het rekening houdt met vakantiedagen en dan zien we wel weer.
 
 Voorbeelden AI:
