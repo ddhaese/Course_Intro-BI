@@ -37,12 +37,12 @@ De meest vooruitstrevende vorm van analyse is de prescriptieve analyse. Hier kom
 
 Voorbeelden prescriptief:
 
-- Op basis van de weersvoorspellingen verteld ons systeem (de agent) me dat er volgende week 2300L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
+- Op basis van de weersvoorspellingen vertelt ons systeem (de agent) me dat er volgende week 2300L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
 - De verkoop van dit product lijkt vrij goed voorspelbaar te zijn door Google trends statistieken. Het systeem voorspeld nu dat de verkoop een sterke terugval gaat krijgen. De tegenvallende Google trend cijfers lijken me echter eerder gestuurd te zijn door de voorbije vakantiedagen. Ik vraag aan onze datawetenschappers om het algoritme aan te passen zodat het rekening houdt met vakantiedagen en dan zien we wel weer.
 
 Voorbeelden AI:
 
-- Het systeem voorspeld dat Pers 3A aan onderhoud toe is en heeft de planning aangepast. Ik heb het automatisch gegenereerd rapport nagekeken en alles lijkt in orde dus ga ik de planningwijziging niet ongedaan maken.
+- Het systeem voorspelt dat Pers 3A aan onderhoud toe is en heeft de planning aangepast. Ik heb het automatisch gegenereerd rapport nagekeken en alles lijkt in orde dus ga ik de planningwijziging niet ongedaan maken.
 - Om de seizoens-afhankelijke variatie in de verkoop in rekening te brengen is de digitale agent beginnen onderhandelen met onze voornaamste distributeur. Het resultaat is dat er een extra transport zal plaatsvinden elke maandag en donderdag en dat we een extra korting van 5% kunnen genieten.
 
 Er bestaan meerdere versies van zulke maturity modellen, maar het gaat dus steeds om een poging de data-geletterdheid van een onderneming te kwantificeren.

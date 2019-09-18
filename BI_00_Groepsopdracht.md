@@ -5,7 +5,7 @@
 In groepjes van 2 studenten moeten jullie de volgende opdracht uitvoeren:
 
 > **Na les 1 en vóór les 2:**
-> Bedenk een scenario voor de groepsopdracht
+> Bedenk een scenario voor de groepsopdracht.
 > Download  [het voorstel voorbeeld](BI_Voorstel_1920.md)
 > Vul de paragrafen `Probleemstelling`, `Doelstellingen` en `Op te Leveren Materialen` in.
 > Stuur de eerste versie van het voorstel van jullie opdracht in via Digitap.
