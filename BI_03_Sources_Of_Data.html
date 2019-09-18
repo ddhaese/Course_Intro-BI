@@ -1,0 +1,434 @@
+<!DOCTYPE html><html><head>
+      <title>BI_03_Sources_Of_Data</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\David\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.4.3\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="intro-bi-3232117001920127">Intro BI (32321/1700/1920/1/27)</h1>
+
+<h2 class="mume-header" id="known-knowns">Known Knowns</h2>
+
+<p>Denk even terug aan de Rumsfeld Matrix. Laten we beginnen met de voor de hand liggende gegevens (<em>known knowns</em>).</p>
+<ul>
+<li>Verkoopcijfers</li>
+<li>Personeelsgegevens</li>
+<li>Klantenbestand</li>
+<li>Resultaten marktonderzoek</li>
+</ul>
+<p>De drie eersten zijn <strong>interne gegevens</strong>, dat zijn gegevens die de onderneming zelf bezit. Het zal verplicht worden om de verkoopcijfers publiek te maken (voor Belgische bedrijven kan je hier aan via de <a href="https://www.nbb.be/nl/balanscentrale/jaarrekeningen-raadplegen">Nationale Bank</a>), maar dan enkel de samenvattende statistieken. De ruwe interne gegevens worden meestal zo weinig mogelijk gedeeld omwille van privacy maar voornamelijk omdat zulke informatie door de concurrentie gebruikt of misbruikt kunnen worden willen ze het tactisch spelen.<br>
+De resultaten van een marktonderzoek (Market research, landscaping) kunnen soms intern zijn (indien uitgevoerd door een medewerker van de onderneming) of <strong>extern</strong> (indien uitgevoerd door een derde bedrijf - al dan niet op bestelling - dat zich specialiseert in zulk onderzoek en de resultaten verkoopt).</p>
+<h2 class="mume-header" id="key-performance-parameters">Key Performance Parameters</h2>
+
+<p>Het laagste niveau binnen de KPI hi&#xEB;rarchie worden soms de Key performance parameters genoemd. Het zijn de dingen die uiteindelijk gemeten kunnen worden op de werkvloer (operational measures). In DWH terminologie spreken we van <strong>facts</strong>.</p>
+<blockquote>
+<p>Facts (feiten) zijn de resultaten van metingen en tellingen van gebeurtenissen die zich op de werkvloer voordoen die het laagste niveau vormen van de KPI hi&#xEB;rarchie. Het gaat om die metingen die cruciaal zijn voor het bepalen van de KPI&apos;s hogerop in de piramide.</p>
+</blockquote>
+<p>Voorbeelden:</p>
+<ul>
+<li>Aantal pakjes gescand</li>
+<li>Aantal verkochte eenheden</li>
+<li>Gemiddelde transportsnelheid</li>
+</ul>
+<p>Facts kan je herkennen aan de volgende eigenschappen:</p>
+<ul>
+<li>Het gaat om metingen of tellingen</li>
+<li>Ze hebben een eenheid (in bovenstaande voorbeelden &apos;pakjes&apos;, &apos;eenheden&apos; en &apos;kilometer per uur&quot;)</li>
+<li>Het gaat om informatie die cruciaal is voor het bekomen van de KPI&apos;s hogerop in de hi&#xEB;rarchie (kwaliteit, winst, efficientie, &#x2026;)</li>
+</ul>
+<p>Ben je op zoek naar beschikbare facts voor een bepaalde probleemstelling, voor een specifiek project of voor het opstellen van een DWH, telkens kan je jezelf deze vragen stellen:</p>
+<blockquote>
+<p>Welke gebeurtenissen zijn er relevant? Gebeurtenissen zijn dingen die op een bepaald ogenblik en op een bepaalde plaats optreden. Er is geen limiet aan wat als een gebeurtenis kan doorgaan en zeker niet alles zal relevant zijn voor jouw probleem, maar hier zijn alvast wat voorbeelden: Audits, scannen van pakje, zetten van elektronische handtekening, optreden van een fout, afgaan van het alarm, stroomonderbreking, plaatsvinden van een vergadering, aanwerving, &#x2026;</p>
+</blockquote>
+<h2 class="mume-header" id="tijd-en-ruimte">Tijd en Ruimte</h2>
+
+<p>Deze twee grootheden zijn veruit de meeste belangrijke <strong>dimensies</strong>. Dimensies op een grafiek zijn de assen waarlangs een bepaalde fact gemeten kan worden. Laten we naar een bekende (maar gedateerde) dataset kijken van de farmareus Johnson &amp; Johnson:</p>
+<p><img src="Media/JJ.png" alt="Quaterly earnings Johnson &amp; Johnson 1960-1980"><br>
+<small>Bron: Shumway, R. H. and Stoffer, D. S. (2000) Time Series Analysis and its Applications. Second Edition. Springer. Example 1.1.</small></p>
+<details>
+<summary>
+Verdieping: Hoe bekom je deze figuur in R?
+</summary>
+Na het opstarten van R geef je gewoon het volgende in:
+<pre data-role="codeBlock" data-info="r" class="language-r">plot <span class="token punctuation">(</span> JohnsonJohnson <span class="token punctuation">)</span>
+</pre></details><br>
+<p>Het gaat om de kwartaalcijfers van 1960 to 1980. Deze dataset wordt vaak in educatieve werken rond tijdsreeksanalyses gebruikt om het effect van een multiplicatieve seizoensafhankelijk trend (seasonality) weer te geven. <em>Multiplicatief</em> betekent hier gewoon dat het seizoenseffect afhangt van</p>
+<blockquote>
+<p>Waar het hier om draait is dat we de <strong>fact</strong> <em>kwartaalcijfer</em> uitgedrukt hebben tegenover de <strong>dimensie</strong> <em>tijd</em>.</p>
+</blockquote>
+<p>In het algemeen, wanneer men onderzoek doet naar de evolutie van gegevens in de loop van de tijd, spreekt van van <strong>trend analyse</strong>.</p>
+<p>Hetzelfde kunnen we nu doen voor ruimte. Onderstaande figuur laat zien hoe we bijvoorbeeld aantallen kunnen uitdrukken over de dimensie <strong>ruimte</strong>:</p>
+<p><img src="Media/Autoverkoop_Nederland.png" alt="Verkoop auto&apos;s"></p>
+<p><small><a href="https://autorai.nl/elke-merken-rijden-er-de-meeste-oldtimers-rond/">bron</a></small></p>
+<details><summary>Nog een voorbeeld&#x2026;</summary>
+Stel je voor dat je voor jouw business afhankelijk bent van transport over de lucht en je zoekt uit waar ideale plek in Europa is om een nieuw hub te openen, dan wil je ondermeer weten waar de nabij gelegen luchthavens zijn:
+<p><img src="Media/Airports.png" alt="Density of airports in Europe"></p>
+<p>Ja kan deze grafiek in R als volgt reproduceren:</p>
+<pre data-role="codeBlock" data-info="r" class="language-r">library<span class="token punctuation">(</span>rworldmap<span class="token punctuation">)</span>
+airports <span class="token operator">&lt;-</span> read.csv<span class="token punctuation">(</span><span class="token string">&quot;https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&quot;</span><span class="token punctuation">,</span> header <span class="token operator">=</span> <span class="token boolean">FALSE</span><span class="token punctuation">)</span>
+colnames<span class="token punctuation">(</span>airports<span class="token punctuation">)</span> <span class="token operator">&lt;-</span> c<span class="token punctuation">(</span><span class="token string">&quot;ID&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;name&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;city&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;country&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;IATA_FAA&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;ICAO&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;lat&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;lon&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;altitude&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;timezone&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;DST&quot;</span><span class="token punctuation">)</span>
+
+newmap <span class="token operator">&lt;-</span> getMap<span class="token punctuation">(</span>resolution <span class="token operator">=</span> <span class="token string">&quot;low&quot;</span><span class="token punctuation">)</span>
+plot<span class="token punctuation">(</span>newmap<span class="token punctuation">,</span> xlim <span class="token operator">=</span> c<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">)</span><span class="token punctuation">,</span> ylim <span class="token operator">=</span> c<span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">65</span><span class="token punctuation">)</span><span class="token punctuation">,</span> asp <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span>
+points<span class="token punctuation">(</span>airports<span class="token operator">$</span>lon<span class="token punctuation">,</span> airports<span class="token operator">$</span>lat<span class="token punctuation">,</span> bg <span class="token operator">=</span> rgb<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> cex <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> pch<span class="token operator">=</span><span class="token number">21</span><span class="token punctuation">,</span> col<span class="token operator">=</span><span class="token keyword">NA</span><span class="token punctuation">)</span>
+</pre></details><br>
+<p>Voor BI gegevens die op zulke wijze worden geanalyseerd per regio/land/provincie/&#x2026; spreekt men soms van <em>Location intelligence</em>.</p>
+<p>Tijd en ruimte zijn slechts 2 van de vele soorten dimensies, maar het zijn wel veruit de belangrijkste.</p>
+<h2 class="mume-header" id="interne-versus-externe-gegevens">Interne versus externe gegevens</h2>
+
+<blockquote>
+<p><em>Voordat je verder leest</em>: Denk eens na wat volgens jou interessante gegevens zouden kunnen zijn</p>
+</blockquote>
+<details><summary>Klik hier om een aantal mogelijke antwoorden te zien</summary>
+<p><em>Interne gegevens</em>:</p>
+<ul>
+<li>Verkoopscijfers</li>
+<li>Product prijzen</li>
+<li>Klachten van de klanten</li>
+<li>Taken van de werknemers</li>
+<li>Algemene aanbiedingen</li>
+<li>Persoonlijke communicatie/aanbiedingen naar de klanten</li>
+<li>Web analyse data (Web analytics)</li>
+<li>Genomen beslissingen van het management</li>
+<li>Metadata (zie later)</li>
+<li>Intern gegeveneerde voorspellingen</li>
+</ul>
+<p><em>Externe gegevens</em>:</p>
+<ul>
+<li>Externe data die een invloed kan hebben op de concurrentie-positie, waaronder&#x2026;</li>
+<li>Extern gegenereerde trends (google trends, financi&#xEB;le trends, &#x2026;)</li>
+<li>Sociale media ((Twitter, Reddit, Facebook, &#x2026;)</li>
+</ul>
+</details><br>
+<h2 class="mume-header" id="interne-media">Interne Media</h2>
+
+<p>Veel van de gegevens intern aan de onderneming worden bewaard in afzonderlijke, speciaal daarvoor voorziene bestanden of de fysische tegenhangers zoals rekenbladen, werkboeken, documenten, databanken, &#x2026;. Vaak zijn er echter nog andere bronnen zoals audit-rapporten, logbestanden, videobeelden, &#x2026; waar men niet onmiddellijk aan denkt.</p>
+<h2 class="mume-header" id="externe-media">Externe Media</h2>
+
+<p>Externe gegeven kunnen teruggevonden worden op internet. Voorbeelden zijn de vele open-data initiatieven:</p>
+<ul>
+<li><a href="http://data.gov">US Open data portal</a></li>
+<li><a href="http://open-data.europa.eu/en/data/">Europese Open data portaal</a></li>
+<li><a href="http://www.census.gov/data.html">US Census Bureau</a></li>
+<li><a href="http://www.socrata.com/discover/">Socrata</a></li>
+<li><a href="http://data.gov.uk/">Brits open data platform</a></li>
+<li><a href="http://www.data.gc.ca/">Canadese open data site</a></li>
+<li>&#x2026;</li>
+</ul>
+<p>Er zijn ook ondernemingen en andere organizatries die heel wat gegevens ter beschikking stellen:</p>
+<ul>
+<li><a href="http://aws.amazon.com/datasets">Amazon Web Services public datasets</a> met wetenschappelijke gegevens zoals het 1000 Genomes Project en satellietbeelden van NASA maar ook <a href="https://registry.opendata.aws/commoncrawl/">Common Crawl</a>, het resultaat van een web-crawler die data van 25 miljard web pagina&apos;s heeft bewaard.</li>
+<li><a href="https://developers.facebook.com/docs/graph-api">Facebook</a> databank</li>
+<li><a href="https://data.world/">Data-world</a></li>
+<li><a href="https://www.gapminder.org/data/">Gapminder</a>:</li>
+</ul>
+<p><img src="Media/GapMinder.png" alt="Screenshot gapminder"></p>
+<p>De <a href="https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#14cabf5bb54d">Forbes</a> website vat nog een aantal gegevensbronnen samen en via deze specifieke <a href="https://www.google.com/publicdata/directory">Google lab</a> kan je zoeken naar nog meer datasets:</p>
+<p><img src="Media/Google_Dataset.png" alt="Google dataset search screenshot"></p>
+<p>Toch is het belangrijk niet enkel op het internet te vertrouwen. Het probleem is met internet ondermeer dat eenieder die actief is in het zelfde domein ook diezelfde data ter beschikking heeft waardoor de kennis van deze bronnen geen competitief voordeel garandeert. Daarom is het belangrijk om ook in de fysieke wereld een groot netwerk van industrie experten te onderhouden en deel te nemen aan allerhande beurzen en conferenties.</p>
+<h2 class="mume-header" id="metadata">Metadata</h2>
+
+<p>Metadata is <strong>data over data</strong>. Laten we eens een aantal voorbeelden bekijken:</p>
+<p><em>Capteren van data</em>:</p>
+<ul>
+<li>Wanneer vond de gebeurtenis plaats</li>
+<li>Data leverancier</li>
+<li>Waarom ontbreken sommige gegevens</li>
+<li>Wat is het onderscheidend vermogen</li>
+<li>Hoe groot zijn de foutenmarges</li>
+<li>(Ingeschatte) Betrouwbaarheid van de data</li>
+<li>Nauwkeurigheid</li>
+<li>Frequentie van opvraging</li>
+<li>Privacy-gevoeligheid van de data</li>
+</ul>
+<p><em>Voorbehandeling van data</em>:</p>
+<ul>
+<li>Stappen (algoritmen, versies, &#x2026;) die nodig zijn in de voorbehandeling van data</li>
+<li>(Indien meerdere) De namen van de personen die instaan voor de voorbehandeling</li>
+<li>De datums waarop de voorbehandeling werd uitgevoerd</li>
+<li>Resultaten van vooropgesteld kwaliteitstesten of andere analyses</li>
+</ul>
+<p><em>Data analyse</em>:</p>
+<ul>
+<li>Wie heeft de analyse uitgevoerd</li>
+<li>Hoelang heeft de analyse geduurd</li>
+<li>Strategie&#xEB;n waarbinnen de analyse valt</li>
+</ul>
+<blockquote>
+<p>Het is belangrijk te begrijpen dat metadata ook data zijn</p>
+</blockquote>
+<h2 class="mume-header" id="generating-data">Generating Data</h2>
+
+<p>Natuurlijk is er de optie om zelf data te genereren. In principe is dat iets dat typisch in het domein van de wetenschap valt omdat hierbij strikte deontologische regels te volgen zijn. De regels hebben er eigenlijk allemaal mee te maken dat de waarnemer zeker is (en dat ook kan garanderen) dat de waarnemingen betrouwbaar, accuraat, precies en relevant zijn. Dit is een niet te onderschatten taak en er is heel wat ervaring nodig om dit te kunnen bereiken. De correcte manier om dat te doen valt buiten het bereik van deze cursus maar ge&#xEF;nteresseerde lezers kunnen hiermee beginnen:</p>
+<p>Carey, S. S. (2011). A beginner&apos;s guide to scientific method. Cengage Learning.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
