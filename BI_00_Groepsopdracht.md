@@ -14,8 +14,8 @@ Het voorstel wordt bekeken door de lector. Indien goedgekeurd, mogen jullie aan 
 
 > **Van les 1 tot en met 6**
 > Dit zijn de theorielessen.
-> Luister aandachtig tijdens de lessen en probeer te begrijpen wat er van toepassing is voor jullie project. Waar vind je data voor jullie project, welke data model moeten we hanteren, welke databank en visualisatie software is hier het meest van toepassing, enzovoort&hellip;
-> Gaande weg verander je het voorstel aan in een analyse document ([Sjabloon hier](BI_Analyse_Doc_Sjabloon_1920.md)). Ben je onzeker over het voorstel, dan mag je altijd raad vragen bij de lector, natuurlijk.
+> Luister aandachtig tijdens de lessen en probeer te begrijpen wat er van toepassing is voor jullie project. Waar vind je data voor jullie project, welk data model moeten we hanteren, welke databank en visualisatie software is hier het meest van toepassing, enzovoort&hellip;
+> Gaandeweg verander je het voorstel in een analyse document ([Sjabloon hier](BI_Analyse_Doc_Sjabloon_1920.md)). Ben je onzeker over het voorstel, dan mag je altijd raad vragen bij de lector, natuurlijk.
 
 > **Na les 6 en vóór les 7:**
 > Insturen finale versie van het Analyse document.
