@@ -22,6 +22,7 @@ Business intelligence en datawarehousing zijn ondertussen van onschatbare waarde
 | Werktijd buiten de contacturen | 51 uren                                                                  |
 | Volgtijdelijkheid              | Data Mining                                                              |
 | ECTS                           | [Link](https://bamaflexweb.ap.be/BMFUIDetailxOLOD.aspx?a=127745&b=5&c=1) |
+
 ## Leerdoelen
 
 - A.5. Architecture Design: Verklaart systeemarchitecturen en selecteert ze in functie van de behoeften, vereisten en gehanteerde standaarden.

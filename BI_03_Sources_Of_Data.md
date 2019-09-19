@@ -38,7 +38,8 @@ Ben je op zoek naar beschikbare facts voor een bepaalde probleemstelling, voor e
 
 Deze twee grootheden zijn veruit de meeste belangrijke **dimensies**. Dimensies op een grafiek zijn de assen waarlangs een bepaalde fact gemeten kan worden. Laten we naar een bekende (maar gedateerde) dataset kijken van de farmareus Johnson & Johnson:
 
-![Quaterly earnings Johnson & Johnson 1960-1980](Media/JJ.png)
+![Quarterly earnings Johnson & Johnson 1960-1980](Media/JJ.png)
+
 <small>Bron: Shumway, R. H. and Stoffer, D. S. (2000) Time Series Analysis and its Applications. Second Edition. Springer. Example 1.1.</small>
 <details>
 <summary>
@@ -49,13 +50,14 @@ Na het opstarten van R geef je gewoon het volgende in:
 ```r
 plot ( JohnsonJohnson )
 ```
+
 </details><br/>
 
 Het gaat om de kwartaalcijfers van 1960 to 1980. Deze dataset wordt vaak in educatieve werken rond tijdsreeksanalyses gebruikt om het effect van een multiplicatieve seizoensafhankelijk trend (seasonality) weer te geven. *Multiplicatief* betekent hier gewoon dat het seizoenseffect afhangt van de grootte van de waarde.
 
 > Waar het hier om draait is dat we de **fact** *kwartaalcijfer* uitgedrukt hebben tegenover de **dimensie** *tijd*.
 
-In het algemeen, wanneer men onderzoek doet naar de evolutie van gegevens in de loop van de tijd, spreekt van van **trend analyse**. 
+In het algemeen, wanneer men onderzoek doet naar de evolutie van gegevens in de loop van de tijd, spreekt van van **trend analyse**.
 
 Hetzelfde kunnen we nu doen voor ruimte. Onderstaande figuur laat zien hoe we bijvoorbeeld aantallen kunnen uitdrukken over de dimensie **ruimte**:
 
@@ -79,6 +81,7 @@ newmap <- getMap(resolution = "low")
 plot(newmap, xlim = c(-10, 40), ylim = c(40, 65), asp = 1)
 points(airports$lon, airports$lat, bg = rgb(1, 0, 0, .5), cex = 1, pch=21, col=NA)
 ```
+
 </details><br/>
 
 Voor BI gegevens die op zulke wijze worden geanalyseerd per regio/land/provincie/&hellip; spreekt men soms van *Location intelligence*.
@@ -179,4 +182,3 @@ Metadata is **data over data**. Laten we eens een aantal voorbeelden bekijken:
 Natuurlijk is er de optie om zelf data te genereren. In principe is dat iets dat typisch in het domein van de wetenschap valt omdat hierbij strikte deontologische regels te volgen zijn. De regels hebben er eigenlijk allemaal mee te maken dat de waarnemer zeker is (en dat ook kan garanderen) dat de waarnemingen betrouwbaar, accuraat, precies en relevant zijn. Dit is een niet te onderschatten taak en er is heel wat ervaring nodig om dit te kunnen bereiken. De correcte manier om dat te doen valt buiten het bereik van deze cursus maar geïnteresseerde lezers kunnen hiermee beginnen:
 
 Carey, S. S. (2011). [A beginner's guide to scientific method](https://pdfs.semanticscholar.org/f438/02e46e7f1deadeb53f8f13d9cb78e55eb5ae.pdf). Cengage Learning.
-

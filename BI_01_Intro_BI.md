@@ -14,8 +14,9 @@ Business intelligence is dus een werkwoord eerder dan een zelfstandig naamwoord.
 
 Er werden verscheidene maturity models gebruikt in het verleden telkens met het doel om ondernemingen te classificeren op een schaal die de data-geletterdheid moet aangeven.
 
-![](Media/CMM.png)
-bron: https://www.xelocity.com
+![Maturity Model](Media/CMM.png)
+
+<small>[Bron](https://www.xelocity.com)</small>
 
 Onderaan de ladder heb je de ondernemingen die geen gegevens capteren of er toch niets mee doen. Een eerste stap naar data-geletterdheid is het capteren van de gegevens rond specifieke gebeurtenissen zoals het verlies van een  klant, het verlies van een lading en zo meer. Op niveau 2 vind je de ondernemingen die het rapporteren van gegevens meer formaliseren en er standaard procedures voor hebben (SOP). Van niveau 3 to 5 gaat er telkens meer en betere analyse op de data kunnen gebeuren.
 
@@ -60,6 +61,7 @@ OK, maar wat heeft dit met BI te maken? Deze matrix kan aangewend worden om aan 
 De bedoeling is dat de onderneming op termijn leert te ontdekken welke data beschikbaar zijn waarvan men het eerst niet wist. In het laatste stadium leert de onderneming antwoorden zoeken op veel complexere vragen doordat systemen in staat zijn gaten in de kennis te ontdekken waarvan men eerst niet eens wisten dat het gaten waren.
 
 > Opdracht:
+>
 > - Lees het artikel rond "[Practical Steps In Building Analytical Maturity](https://www.xelocity.com/site/page/article.asp?fpar=b413f3b3c5f5d4c)" van Chris Rodgers (Xelocity)
 > - Bekijk de videos die het resultaat zijn van de [PwC's Global Data and Analytics Survey 2016](https://www.pwc.com/us/en/services/consulting/analytics/big-decision-survey.html)
 

@@ -15,8 +15,9 @@ Men spreekt van **bevoorradingsketens** (supply chains) maar in feite gaat het t
 Herinner je je dat het voorname doel van Business Intelligence was om competitiever te zijn. Dat betekent dus ook dat we de werking van bevoorradingsnetwerken zullen moeten begrijpen.
 
 > Behalve de bevoorradingsnetwerken zijn er nog vele afhankelijkheden waar een bedrijf mee moet rekening houden. De belangrijkste hebben met wetgeving (legislation) en met politiek (internationale prijsafspraken en handelsverdragen) te maken. Deze afhankelijkheden kunnen *bepalend* zijn voor de overlevingskansen van een bedrijf.
-
+>
 > Optioneel leesvoer:
+>
 > - [Beste bevoorradingsnetwerken ter wereld](https://www.hollingsworthllc.com/best-supply-chains-companies-around-world/)
 > - [Gartner's Top 25](https://www.gartner.com/en/supply-chain/research/supply-chain-top-25)
 
