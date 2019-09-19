@@ -9,14 +9,14 @@ Denk even terug aan de Rumsfeld Matrix. Laten we beginnen met de voor de hand li
 - Klantenbestand
 - Resultaten marktonderzoek
 
-De drie eersten zijn **interne gegevens**, dat zijn gegevens die de onderneming zelf bezit. Het zal verplicht worden om de verkoopcijfers publiek te maken (voor Belgische bedrijven kan je hier aan via de [Nationale Bank](https://www.nbb.be/nl/balanscentrale/jaarrekeningen-raadplegen)), maar dan enkel de samenvattende statistieken. De ruwe interne gegevens worden meestal zo weinig mogelijk gedeeld omwille van privacy maar voornamelijk omdat zulke informatie door de concurrentie gebruikt of misbruikt kunnen worden willen ze het tactisch spelen.
-De resultaten van een marktonderzoek (Market research, landscaping) kunnen soms intern zijn (indien uitgevoerd door een medewerker van de onderneming) of **extern** (indien uitgevoerd door een derde bedrijf - al dan niet op bestelling - dat zich specialiseert in zulk onderzoek en de resultaten verkoopt).
+De drie eersten zijn **interne gegevens**, dat zijn gegevens die de onderneming zelf bezit. Het zal verplicht worden om de verkoopcijfers publiek te maken (voor Belgische bedrijven kan je hier aan via de [Nationale Bank](https://www.nbb.be/nl/balanscentrale/jaarrekeningen-raadplegen)), maar dan enkel de samenvattende statistieken. De ruwe interne gegevens worden meestal zo weinig mogelijk gedeeld omwille van privacy maar voornamelijk omdat zulke informatie door de concurrentie gebruikt - of misbruikt - kunnen worden.
+De resultaten van een marktonderzoek (market research, landscaping) kunnen soms intern zijn (indien uitgevoerd door een medewerker van de onderneming) of **extern** (indien uitgevoerd door een derde bedrijf - al dan niet op bestelling - dat zich specialiseert in zulk onderzoek en de resultaten verkoopt).
 
 ## Key Performance Parameters
 
 Het laagste niveau binnen de KPI hiërarchie worden soms de Key performance parameters genoemd. Het zijn de dingen die uiteindelijk gemeten kunnen worden op de werkvloer (operational measures). In DWH terminologie spreken we van **facts**.
 
-> Facts (feiten) zijn de resultaten van metingen en tellingen van gebeurtenissen die zich op de werkvloer voordoen die het laagste niveau vormen van de KPI hiërarchie. Het gaat om die metingen die cruciaal zijn voor het bepalen van de KPI's hogerop in de piramide.
+> Facts (feiten) zijn de resultaten van metingen en tellingen van gebeurtenissen die zich op de werkvloer voordoen die het laagste niveau vormen van de KPI hiërarchie. Het gaat om die metingen die cruciaal zijn voor het bepalen van de KPI's hogerop in de KPI hiërarchie.
 
 Voorbeelden:
 
@@ -51,7 +51,7 @@ plot ( JohnsonJohnson )
 ```
 </details><br/>
 
-Het gaat om de kwartaalcijfers van 1960 to 1980. Deze dataset wordt vaak in educatieve werken rond tijdsreeksanalyses gebruikt om het effect van een multiplicatieve seizoensafhankelijk trend (seasonality) weer te geven. *Multiplicatief* betekent hier gewoon dat het seizoenseffect afhangt van  
+Het gaat om de kwartaalcijfers van 1960 to 1980. Deze dataset wordt vaak in educatieve werken rond tijdsreeksanalyses gebruikt om het effect van een multiplicatieve seizoensafhankelijk trend (seasonality) weer te geven. *Multiplicatief* betekent hier gewoon dat het seizoenseffect afhangt van de grootte van de waarde.
 
 > Waar het hier om draait is dat we de **fact** *kwartaalcijfer* uitgedrukt hebben tegenover de **dimensie** *tijd*.
 
@@ -111,7 +111,6 @@ Tijd en ruimte zijn slechts 2 van de vele soorten dimensies, maar het zijn wel v
 - Sociale media ((Twitter, Reddit, Facebook, &hellip;)
 
 </details><br/>
-
 
 ## Interne Media
 
@@ -179,5 +178,5 @@ Metadata is **data over data**. Laten we eens een aantal voorbeelden bekijken:
 
 Natuurlijk is er de optie om zelf data te genereren. In principe is dat iets dat typisch in het domein van de wetenschap valt omdat hierbij strikte deontologische regels te volgen zijn. De regels hebben er eigenlijk allemaal mee te maken dat de waarnemer zeker is (en dat ook kan garanderen) dat de waarnemingen betrouwbaar, accuraat, precies en relevant zijn. Dit is een niet te onderschatten taak en er is heel wat ervaring nodig om dit te kunnen bereiken. De correcte manier om dat te doen valt buiten het bereik van deze cursus maar geïnteresseerde lezers kunnen hiermee beginnen:
 
-Carey, S. S. (2011). A beginner's guide to scientific method. Cengage Learning.
+Carey, S. S. (2011). [A beginner's guide to scientific method](https://pdfs.semanticscholar.org/f438/02e46e7f1deadeb53f8f13d9cb78e55eb5ae.pdf). Cengage Learning.
 

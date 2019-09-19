@@ -10,12 +10,9 @@ olod: Toegepaste Informatica
 
 #### Intro BI Analyse Document
 
-*In het totaal mag het document niet langer zijn dan 15 bladzijden en moet het 2500 tot 5000 woorden bevatten. Maak gebruik van de nodige diagrammen waar nodig. Verwijder alle schuingedrukte tekst zoals deze in versies 1.x en hoger!*
-
 ## Analyse van de Verkoop van Chips en Guacamole (Vervang dit dus door jouw titel!)
 
-Voornaam1 Naam1
-Voornaam2 Naam2
+Voornaam1 Naam1 & Voornaam2 Naam2
 
 ### Versiebeheer
 
