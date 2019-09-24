@@ -7,10 +7,12 @@
 
 ## Lessen
 
-- [Intro Course](BI_00_Intro_Course.md)
-- [Intro BI](BI_01_Intro_BI.md)
+- [Introductie tot de cursus](BI_00_Intro_Course.md)
+- [Introductie tot BI](BI_01_Intro_BI.md)
 - [Onderneming](BI_02_Onderneming.md)
-- [Sources Of Data](BI_03_Databronnen.md)
+- [Gegevensbronnen](BI_03_Databronnen.md)
+- [Integratie van gegevens](BI_04_Data_Integratie.md)
+- [Extractie van gegevens](BI_05_Data_Extractie.md)
 
 ## Extra documenten
 
