@@ -42,7 +42,7 @@ Business intelligence en datawarehousing zijn ondertussen van onschatbare waarde
 ### Theorie
 
 - Aanleren verscheidene gegevensbronnen in bedrijven en bevoorradingsketens
-- Achtergrond rond staging, datawarehousing, interfacing, data-modellen, ETL processen en OLAP kubussen
+- Achtergrond rond staging, datawarehousing, interfacing, datamodellen, ETL processen en OLAP kubussen
 - Principe van single point of truth
 - Introductie tot metagegevens
 

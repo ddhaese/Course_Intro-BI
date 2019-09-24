@@ -129,22 +129,44 @@ Externe gegeven kunnen teruggevonden worden op internet. Voorbeelden zijn de vel
 - [Socrata](http://www.socrata.com/discover/)
 - [Brits open data platform](http://data.gov.uk/)
 - [Canadese open data site](http://www.data.gc.ca/)
-- &hellip;
+- enzovoort&hellip;
 
 Er zijn ook ondernemingen en andere organizatries die heel wat gegevens ter beschikking stellen:
 
 - [Amazon Web Services public datasets](http://aws.amazon.com/datasets) met wetenschappelijke gegevens zoals het 1000 Genomes Project en satellietbeelden van NASA maar ook [Common Crawl](https://registry.opendata.aws/commoncrawl/), het resultaat van een web-crawler die data van 25 miljard web pagina's heeft bewaard.
-- [Facebook](https://developers.facebook.com/docs/graph-api) databank
+- [Facebook](https://developers.facebook.com/docs/graph-api)
+- [Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#14cabf5bb54d)
 - [Data-world](https://data.world/)
+- [Quantopian](https://www.quantopian.com/)
+  ![Quantopian](Media/Quantopian.png)
 - [Gapminder](https://www.gapminder.org/data/):
+  ![Screenshot gapminder](Media/GapMinder.png)
+- [Google Dataset Search lab](https://www.google.com/publicdata/directory):
+  ![Google dataset search screenshot](Media/Google_Dataset.png)
+- enzovoort&hellip;
 
-![Screenshot gapminder](Media/GapMinder.png)
+## Niet op Internet
 
-De [Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#14cabf5bb54d) website vat nog een aantal gegevensbronnen samen en via deze specifieke [Google lab](https://www.google.com/publicdata/directory) kan je zoeken naar nog meer datasets:
+De meeste bronnen hierboven zijn publiek toegankelijk via het internet. Toch is het belangrijk niet enkel op het internet te vertrouwen. Het probleem met internet als databron is ondermeer dat eenieder die actief is in hetzelfde domein ook diezelfde data ter beschikking heeft waardoor de kennis van deze bronnen geen competitief voordeel garandeert. Daarom is het belangrijk om ook in de fysieke wereld een groot netwerk van industrie experten te onderhouden en deel te nemen aan allerhande beurzen en conferenties.
 
-![Google dataset search screenshot](Media/Google_Dataset.png)
+## Zoekproces
 
-Toch is het belangrijk niet enkel op het internet te vertrouwen. Het probleem is met internet ondermeer dat eenieder die actief is in het zelfde domein ook diezelfde data ter beschikking heeft waardoor de kennis van deze bronnen geen competitief voordeel garandeert. Daarom is het belangrijk om ook in de fysieke wereld een groot netwerk van industrie experten te onderhouden en deel te nemen aan allerhande beurzen en conferenties.
+Hierboven worden een aantal databronnen opgesomd, maar het vergt vaak wel wat meer speurwerk om de ideal dataset te vinden. **We gaan hier even een fictief voorbeeld aanhalen van hoe zo een zoektocht zou kunnen verlopen.**
+
+*Hypothetisch*: je bent op zoek naar een gratis beschikbare data die een voorspellende waarde heeft voor het transportsnelheid van goederen over de Westerschelde. Dit zou je zoektocht naar geschikte data bijvoorbeeld kunnen zijn:
+
+1. je zoekt eerst naar een website die historische windsterkte vrijgeeft, liefst via API
+2. je vind wel een aantal bronnen maar geen daarvan zijn én gratis én in staat om historische data op te halen
+3. dan lees je ergens dat golfslag misschien een betere voorspellende waarde heeft
+4. je zoekt op Google naar `Wave Measurement` en je komt [dit](https://www.researchgate.net/publication/324478225_Outlier_Detection_in_Ocean_Wave_Measurements_by_Using_Unsupervised_Data_Mining_Methods) wetenschappelijk artikel tegen
+5. in dat artikel blijken ze exact te doen wat je naar op zoek bent
+6. daarom zoek je in dat artikel naar de 'Methods' sectie om te achterhalen waar de auteurs hun data vandaan hebben (een wetenschappelijk artikel moet per definitie reproduceerbaar zijn dus moet het zijn bronnen altijd vermelden)
+7. je vind dat ze de data van de organisatie NOAA hebben en je geeft het in op Google
+8. op de [website van de NOAA](https://www.ndbc.noaa.gov/data/) ontdek je dat ze de gegevens publiek ter beschikking stellen
+9. Er zijn data voor België beschikbaar, maar de frequentie waarmee ze beschikbaar worden gemaakt is toch teleurstellend
+10. je realiseert je plots dat er misschien Belgische sites zijn die ook hun gegevens delen
+11. je komt op de website van het [Meetnet Vlaamse Banken](https://meetnetvlaamsebanken.be/Measurement) en daar vind je, na inloggen, exact de data die je nodig hebt&hellip;
+  ![Meetnet Vlaamse Banken](Media/Zoek_proces.png)
 
 ## Metadata
 
@@ -153,7 +175,7 @@ Metadata is **data over data**. Laten we eens een aantal voorbeelden bekijken:
 *Capteren van data*:
 
 - Wanneer vond de gebeurtenis plaats
-- Data leverancier
+- Dataleverancier
 - Waarom ontbreken sommige gegevens
 - Wat is het onderscheidend vermogen
 - Hoe groot zijn de foutenmarges
@@ -169,7 +191,7 @@ Metadata is **data over data**. Laten we eens een aantal voorbeelden bekijken:
 - De datums waarop de voorbehandeling werd uitgevoerd
 - Resultaten van vooropgesteld kwaliteitstesten of andere analyses
 
-*Data analyse*:
+*Data-analyse*:
 
 - Wie heeft de analyse uitgevoerd
 - Hoelang heeft de analyse geduurd
@@ -177,7 +199,7 @@ Metadata is **data over data**. Laten we eens een aantal voorbeelden bekijken:
 
 > Het is belangrijk te begrijpen dat metadata ook data zijn
 
-## Generating Data
+## Data Genereren
 
 Natuurlijk is er de optie om zelf data te genereren. In principe is dat iets dat typisch in het domein van de wetenschap valt omdat hierbij strikte deontologische regels te volgen zijn. De regels hebben er eigenlijk allemaal mee te maken dat de waarnemer zeker is (en dat ook kan garanderen) dat de waarnemingen betrouwbaar, accuraat, precies en relevant zijn. Dit is een niet te onderschatten taak en er is heel wat ervaring nodig om dit te kunnen bereiken. De correcte manier om dat te doen valt buiten het bereik van deze cursus maar geïnteresseerde lezers kunnen hiermee beginnen:
 

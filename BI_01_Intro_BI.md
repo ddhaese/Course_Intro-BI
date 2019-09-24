@@ -18,7 +18,7 @@ Er werden verscheidene maturity models gebruikt in het verleden telkens met het 
 
 <small>[Bron](https://www.xelocity.com)</small>
 
-Onderaan de ladder heb je de ondernemingen die geen gegevens capteren of er toch niets mee doen. Een eerste stap naar data-geletterdheid is het capteren van de gegevens rond specifieke gebeurtenissen zoals het verlies van een  klant, het verlies van een lading en zo meer. Op niveau 2 vind je de ondernemingen die het rapporteren van gegevens meer formaliseren en er standaard procedures voor hebben (SOP). Van niveau 3 to 5 gaat er telkens meer en betere analyse op de data kunnen gebeuren.
+Onderaan de ladder heb je de ondernemingen die geen gegevens capteren of er toch niets mee doen. Een eerste stap naar datageletterdheid is het capteren van de gegevens rond specifieke gebeurtenissen zoals het verlies van een  klant, het verlies van een lading en zo meer. Op niveau 2 vind je de ondernemingen die het rapporteren van gegevens meer formaliseren en er standaard procedures voor hebben (SOP). Van niveau 3 to 5 gaat er telkens meer en betere analyse op de data kunnen gebeuren.
 
 De eenvoudigste vorm van analyse is retrospectief. Dit type analyse beantwoordt de vraag: *wat is er precies gebeurd?*
 
@@ -46,7 +46,7 @@ Voorbeelden AI:
 - Het systeem voorspelt dat pers 3A aan onderhoud toe is en heeft de planning aangepast. Ik heb het automatisch gegenereerd rapport nagekeken en alles lijkt in orde dus ga ik de planningwijziging niet ongedaan maken.
 - Om de seizoens-afhankelijke variatie in de verkoop in rekening te brengen is de digitale agent beginnen onderhandelen met onze voornaamste distributeur. Het resultaat is dat er een extra transport zal plaatsvinden elke maandag en donderdag en dat we een extra korting van 5% kunnen genieten.
 
-Er bestaan meerdere versies van zulke maturity modellen, maar het gaat dus steeds om een poging de data-geletterdheid van een onderneming te kwantificeren.
+Er bestaan meerdere versies van zulke maturity modellen, maar het gaat dus steeds om een poging de datageletterdheid van een onderneming te kwantificeren.
 
 ## De Rumsfeld matrix
 
@@ -67,12 +67,12 @@ De bedoeling is dat de onderneming op termijn leert te ontdekken welke data besc
 
 ### Van Gegevens naar Inzichten
 
-Het onderstaand schema geeft een helikopter zicht van wat de data-gedreven (data-driven) onderneming wil bekomen:
+Het onderstaand schema geeft een helikopter zicht van wat de datagedreven (data-driven) onderneming wil bekomen:
 
 ![Van Data naar inzichten](Media/Generating_Insights.png)
 
-Laten we dit schema even onder de loupe nemen. We beginnen bij de missie en visie van de onderneming. Daarin worden de high-level doelstellingen vastgelegd en een soort operationele strategie bepaald. Hieruit moet gedestilleerd kunnen worden (naast vele andere zaken) welke databronnen er aangeboord moeten kunnen worden. Gegevensbronnen ontdekken is één zaak maar die data ook binnenhalen (**Collector**) is nog iets anders. Het probleem is dat de gegevens soms in andere formaten beschikbaar worden gemaakt dan wat de onderneming gewoon is. Misschien worden de data enkel als data-stroom ter beschikking gesteld. We gaan leren wat het allemaal met zich meebrengt om dit tot een goed einde te brengen. Niet alle data van een bepaalde bron zal nuttig blijken te zijn en misschien wil je een filter toepassen. Misschien moeten er velden worden opgekuist of getransformeerd (**Data Processor**). Dit vereist dan weer dat er een voldoende groot begrip is van de data en het is typisch ook het werk van data wetenschappers om alle velden te begrijpen en proberen in te schatten of deze gegevens waardevol kunnen zijn. In de **Staging Area** Worden de gegevens opgeslagen, het is dus niet meer of minder dan een databank.
+Laten we dit schema even onder de loupe nemen. We beginnen bij de missie en visie van de onderneming. Daarin worden de high-level doelstellingen vastgelegd en een soort operationele strategie bepaald. Hieruit moet gedestilleerd kunnen worden (naast vele andere zaken) welke databronnen er aangeboord moeten kunnen worden. Gegevensbronnen ontdekken is één zaak maar die data ook binnenhalen (**Collector**) is nog iets anders. Het probleem is dat de gegevens soms in andere formaten beschikbaar worden gemaakt dan wat de onderneming gewoon is. Misschien worden de data enkel als datastroom ter beschikking gesteld. We gaan leren wat het allemaal met zich meebrengt om dit tot een goed einde te brengen. Niet alle data van een bepaalde bron zullen nuttig blijken te zijn en misschien wil je een filter toepassen. Misschien moeten er velden worden opgekuist of getransformeerd (**Data Processor**). Dit vereist dan weer dat er een voldoende groot begrip is van de data en het is typisch ook het werk van datawetenschappers om alle velden te begrijpen en proberen in te schatten of deze gegevens waardevol kunnen zijn. In de **Staging Area** Worden de gegevens opgeslagen, het is dus niet meer of minder dan een databank.
 
-Als de data netjes zijn opgeslagen, kan men beginnen met het **data analyse** proces. Dit omhelst achtereenvolgens het creëren van een **Data Warehouse** (DWH) en de descriptieve (Data mining),predictieve (ML) an/of prescriptieve (AI) analyse van de gegevens. Uiteindelijk moet de analyse leiden tot betere inzichten en leiden deze inzichten hopelijk tot een performantie winst voor de onderneming. Tenslotte zal een sterk data-geletterde onderneming een proces hebben uitgetekend om dit hele proces waar nodig bij te sturen (**Adjust flow**).
+Als de data netjes zijn opgeslagen, kan men beginnen met het **data-analyse** proces. Dit omhelst achtereenvolgens het creëren van een **Datawarehouse** (DWH) en de descriptieve (data mining),predictieve (ML) an/of prescriptieve (AI) analyse van de gegevens. Uiteindelijk moet de analyse leiden tot betere inzichten en leiden deze inzichten hopelijk tot een performantie winst voor de onderneming. Tenslotte zal een sterk datageletterde onderneming een proces hebben uitgetekend om dit hele proces waar nodig bij te sturen (**Adjust flow**).
 
 De cursus zal ongeveer ingedeeld worden volgens bovenstaande flow. We beginnen bij de onderneming met zijn visie en missie.
