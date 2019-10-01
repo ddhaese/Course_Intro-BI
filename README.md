@@ -16,4 +16,3 @@
 - [Extractie van gegevens](BI_05_Data_Extractie.md)
 - [Exploratie van gegevens](BI_06_Data_Exploration.md)
 - [Transformatie van gegevens](BI_07_Transformaties.md)
-
