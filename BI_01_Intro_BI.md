@@ -10,6 +10,23 @@ Voor deze cursus hanteren we de volgende definitie:
 
 Business intelligence is dus een werkwoord eerder dan een zelfstandig naamwoord. De gegevens zelf zijn geen BI totdat iemand er nuttige informatie kan uithalen. De databank systemen waarop deze data zijn opgeslagen zijn evenmin BI. Ook de totale kennis binnen de onderneming (knowledge base) is in principe geen BI in de nauwe zin van het woord. Het beheren van de gegevens om tot een vruchtbare knowledge base te komen, dát is BI.
 
+### Concurrentievoordeel
+
+Het concurrentiëel voordeel van de onderneming kan op vele manieren bekomen worden. Hieronder staan een aantal voorbeelden opgesomd:
+
+Corporate performance management (CPM):
+
+- De grondstof- en productiekosten kunnen gedrukt worden
+- De ëfficientie van de productie kan worden verhoogd
+- Er kan meer geïnvesteerd worden in innovatieve oplossingen
+- Er kan sneller en beter beslissingen worden genomen
+
+Customer Relationship Management (CRM):
+
+- De visibiliteit van de onderneming kan worden vergroot
+- Het prijzenmanagement kan worden aangepast
+- Het klantenbestand kan worden verbreed of aangepast
+
 ### BI Maturity Model
 
 Er werden verscheidene maturity models gebruikt in het verleden telkens met het doel om ondernemingen te classificeren op een schaal die de data-geletterdheid moet aangeven.

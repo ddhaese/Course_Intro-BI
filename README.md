@@ -3,7 +3,8 @@
 ## Groepsopdracht
 
 - [Overzicht Groepsopdracht](BI_00_Groepsopdracht.md)
-- [BI Voorstel 1920](BI_Voorstel_1920.md)
+- [Voorbeeld BI Voorstel](BI_Voorstel_1920.md)
+- [Sjabloon BI Blueprint](BI_Blueprint_Template.md)
 
 ## Lessen
 
@@ -13,7 +14,6 @@
 - [Gegevensbronnen](BI_03_Databronnen.md)
 - [Integratie van gegevens](BI_04_Data_Integratie.md)
 - [Extractie van gegevens](BI_05_Data_Extractie.md)
+- [Exploratie van gegevens](BI_06_Data_Exploration.md)
+- [Transformatie van gegevens](BI_07_Transformaties.md)
 
-## Extra documenten
-
-- [Gartner top 25 supply chain](Media/Gartner_top_25_supply_chain.pdf)
