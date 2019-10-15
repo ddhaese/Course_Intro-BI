@@ -37,25 +37,25 @@ Er werden verscheidene maturity models gebruikt in het verleden telkens met het 
 
 Onderaan de ladder heb je de ondernemingen die geen gegevens capteren of er toch niets mee doen. Een eerste stap naar datageletterdheid is het capteren van de gegevens rond specifieke gebeurtenissen zoals het verlies van een  klant, het verlies van een lading en zo meer. Op niveau 2 vind je de ondernemingen die het rapporteren van gegevens meer formaliseren en er standaard procedures voor hebben (SOP). Van niveau 3 to 5 gaat er telkens meer en betere analyse op de data kunnen gebeuren.
 
-De eenvoudigste vorm van analyse is retrospectief. Dit type analyse beantwoordt de vraag: *wat is er precies gebeurd?*
+De eenvoudigste vorm van analyse is **retrospectief**. Dit type analyse beantwoordt de vraag: *wat is er precies gebeurd?*
 
 Voorbeelden:
 
 - Wanneer is de kwaliteit van het product beginnen achteruit lopen en is er misschien toen iets gebeurd dat de kwaliteitsval kan verklaren
-- Hoeveel SKU's (Stock Keeping Unit = Voorraadbeheer eenheid) in het fancy-pants assortiment zijn er verkocht van 2000 tot heden in de vestigingen in Hasselt. Is het nog de moeite deze collectie daar voort te zetten?
+- Hoeveel SKU's (Stock Keeping Unit = Voorraadbeheer eenheid) in het *Fancy-Pants* assortiment zijn er verkocht van 2000 tot heden in de vestigingen in Hasselt. Is het nog de moeite deze collectie daar voort te zetten?
 - Is er een seizoensgebonden factor in de verkoopcijfers van onze plastieken bekers en kunnen we dat niet uitspelen om efficiënter de productie te sturen?
 
-Een meer geavanceerde vorm van analyse is de voorspellende analyse (predictie analytics). Typisch maakt deze vorm van analyse gebruik van Machine Learning (ML). Nu kunnen er veel interessantere vragen gesteld worden:
+Een meer geavanceerde vorm van analyse is de voorspellende analyse (**predictive analytics**). Typisch maakt deze vorm van analyse gebruik van Machine Learning (ML). Nu kunnen er veel interessantere vragen gesteld worden:
 
 - Gegeven de data die we van marktanalysten hebben gekregen, kunnen we voorspellen of het de moeite loont om een nieuw vestiging te openen in Moeskroen?
 - Onze pijnstillers werken niet goed, kan je voorspellen of ze misschien kunnen ingezet worden om een ander kwaal te bestrijden?
 - Er is steeds meer volatiliteit op de bevoorrading van de onderdelen voor de Ford Fiesta. Kunnen we een simulatie lopen met een extra stockage ruimte van 3000m² in Beringen om na te gaan of we dat probleem in de toekomst kunnen verhelpen?
 
-De meest vooruitstrevende vorm van analyse is de prescriptieve analyse. Hier komt het erop neer dat een soort digitale agent in staat is om de manager te vertellen wat er moet gebeuren. In zuivere AI (artificiële intelligentie) wordt er zelfs een stap verder gegaan en krijgt de digitale agent de verantwoordelijkheid om zelfstandig het systeem aan te sturen.
+De meest vooruitstrevende vorm van analyse is de **prescriptieve analyse**. Hier komt het erop neer dat een soort digitale agent in staat is om de manager te vertellen wat er moet gebeuren. In zuivere AI (**artificiële intelligentie**) wordt er zelfs een stap verder gegaan en krijgt de digitale agent de verantwoordelijkheid om zelfstandig het systeem aan te sturen.
 
 Voorbeelden prescriptief:
 
-- Op basis van de weersvoorspellingen vertelde ons systeem (de agent) me dat er volgende week 2300L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
+- Op basis van de weersvoorspellingen vertelde ons systeem (de agent) me dat er volgende week 2300&nbsp;L melk zal nodig zijn voor onze ijsroomwagens. Dat lijkt me realistisch, je mag de bestelling plaatsen.
 - De verkoop van dit product lijkt vrij goed voorspelbaar te zijn door Google trends statistieken. Het systeem voorspelt nu dat de verkoop een sterke terugval gaat krijgen. De tegenvallende Google trend cijfers lijken me echter eerder gestuurd te zijn door de voorbije vakantiedagen. Ik vraag aan onze datawetenschappers om het algoritme aan te passen zodat het rekening houdt met vakantiedagen en dan zien we wel weer.
 
 Voorbeelden AI:
@@ -82,7 +82,7 @@ De bedoeling is dat de onderneming op termijn leert te ontdekken welke data besc
 > - Lees het artikel rond "[Practical Steps In Building Analytical Maturity](https://www.xelocity.com/site/page/article.asp?fpar=b413f3b3c5f5d4c)" van Chris Rodgers (Xelocity)
 > - Bekijk de videos die het resultaat zijn van de [PwC's Global Data and Analytics Survey 2016](https://www.pwc.com/us/en/services/consulting/analytics/big-decision-survey.html)
 
-### Van Gegevens naar Inzichten
+### <a id="lifecycle"></a>Van Gegevens naar Inzichten ###
 
 Het onderstaand schema geeft een helikopter zicht van wat de datagedreven (data-driven) onderneming wil bekomen:
 

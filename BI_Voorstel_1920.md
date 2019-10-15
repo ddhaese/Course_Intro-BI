@@ -47,5 +47,5 @@ Op dit moment zijn er cijfers beschikbaar van de verkoop van chips en guacamole 
 *Hier som je op welke bestanden er uiteindelijk opgeleverd gaan worden exclusief dit analyse document.*
 
 - SSAS/SSIS project met staging area, ETL rules en DWH
-- OLAP met Tijd en/of staat in Excel
-- Rapport met voorspellingen en analyse van voorspellende waarde- 
+- OLAP met Tijd en/of staat in Power BI
+- Rapport met voorspellingen en analyse van voorspellende waarde

@@ -96,7 +96,7 @@ Er zijn twee stromingen in het opzetten van een architectuur voor een DWH. Men s
 
 [Bron: Stanford. 2003. “Data Warehousing Concepts” (accessed 5/26/2016)](https://web.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10736/concept.htm#i1006297)
 
-Hieronder nog eens een visuele voorstelling van de verschillen tussen beide architecturen:
+Herinner je je dat een sterk genormaliseerd model een is waarbij de data slechts één keer worden opgeslagen en waarbij afleidbare gegevens *niet* worden opgeslagen. Hieronder nog eens een visuele voorstelling van de verschillen tussen beide architecturen:
 
 ![Vergelijk architectuur Inmon versus Kimball](Media/Inmon_Kimball_Arch.png)
 
@@ -167,5 +167,13 @@ De bovenstaande processen lenen zich tot parallel werk. Hier wordt later op teru
 
 Hier volgen nog een aantal regels voor het robuust en veilig maken van de DWH:
 
--**Mensen en datums** - Probeer zoveel mogelijk alle handelingen op de data als metadata te bewaren. Eigenaars van de data en bronnen met oorspronkelijke beschrijvingen moeten ook worden bewaard. Bewaar ook ergen de tijdstippen waarop de data werden vergaard en/of werden getransformaard. Waar gegevens kunnen overschreven worden, moet er ook een geldigheidsdatum worden voorzien (enkel begin datum is voldoende)
+- **Mensen en datums** - Probeer zoveel mogelijk alle handelingen op de data als metadata te bewaren. Eigenaars van de data en bronnen met oorspronkelijke beschrijvingen moeten ook worden bewaard. Bewaar ook ergens de tijdstippen waarop de data werden vergaard en/of werden getransformaard. Waar gegevens kunnen overschreven worden, moet er ook een geldigheidsdatum worden voorzien (enkel begin datum is voldoende)
+- **Historiek** - Denk goed na over of (en hoe) je historiek wil bewaren. Historiek gaat niet over waarden die worden toegevoegd, zoals het plaatvinden van een nieuwe verkoop, maar gaat over het wijzigen van bestaande gegevens. Typisch voorbeeld zijn de adresgegevens van klanten. Is het nuttig om dat bij te houden. Het antwoord op die vraag is sterk afhankelijk van de situatie en moet dus geval-per-geval bekeken worden. Er zijn meerdere manieren om historische gegevens te bewaren:
 
+  - **Type 1** - Geen historiek
+  - **Type 2** - Nieuwe rij per wijziging
+  - **Type 3** - Nieuwe nullable kolom met oude waarden in
+  - **Type 4** - Mini-dimensie met daarin alle data voor elke wijziging
+
+  Voor velden zoals Klantnummers, Rijksregisternummers en geboortedatum is er gewoonlijk geen historiek noodzakelijk (type 1). Voor adressen, burgerlijke staat volstaat type 2. Voor het grootschalige operatie zoals het mergen van twee DWH met nieuwe sets van (surrogate) PK's is type 3 het meest logische en voor zaken waarbij de historiek zelf vaak onderdeel maakt van een view of query (bijv. bijhouden van prijsveranderingen of veranderingen in de voorraad) kan type 4 geopteerd worden.
+- **Performantie** - De hoeveelheid van gegevens kunnen wel de performantie bepalen, maar meestal niet zo erg als wel eens wordt beweerd. Bij een juiste indexering van de tabellen en het gebruik van map-reduce algoritmen speelt de hoeveelheid data een niet al te grote rol. Wat wel een grote impact heeft op de snelheid zijn méér-op-méér relaties, recursiviteit en brugtabellen.

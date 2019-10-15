@@ -60,48 +60,63 @@ Op dit moment zijn er cijfers beschikbaar van de verkoop van chips en guacamole 
 
 *Overzichtelijk opsommen van alle taken die binnen de opdracht vallen. Zorg dat alle taken vermeld worden en deze paragraaf sluitend is. Denk eraan dat de omvang meestal ook contractueel wordt vastgelegd. Hier mag je wel de nodige assumpties maken. Max. 300 woorden*
 
+1. Identificeren relevante databronnen
+2. &hellip;
+
 #### Niet van toepassing
 
 *Opsommen wat niet binnen de opdracht valt. Bijvoorbeeld het voor zien van de server of de nodige software, … Max. 300 woorden*
 
 #### Functioneel design voor doelgroep A
 
+*Max. 500 woorden Voeg de nodige schema's toe voor het business proces + beslissingstabellen*
+
 #### Functioneel design voor doelgroep B
+
+*Idem*
 
 ### Technisch Design
 
-*Detail voor de technische uitvoering. Gebruik klassediagrammen, ERD’s, toestandsdiagrammen, beslissingstabellen, sequentiediagrammen, component diagrammen, enz… indien nodig. Totaal max. 500 woorden*
+*Detail voor de technische uitvoering. Gebruik klassediagrammen, ERD’s, toestandsdiagrammen,sequentiediagrammen, component diagrammen, enz… indien nodig. Totaal max. 500 woorden*
 
 #### Overzicht technologie
 
-*Opsommen van alle technologie die nodig is om de taken uit te voeren.*
+*Opsommen van alle technologie die nodig is om de taken uit te voeren. Bekijk dit als de lijst van ingrediënten van een gerecht.*
+
+#### Data Flow Diagram
+
+*Gebruik een Data Flow Diagram (DFD) om de levencyclus van alle data-elementen weer te geven. Het DFD vertrekt van bij de bronnen (je moet met data updates rekening houden) en eindigt bij de visualisaties*
 
 #### Brongegevens
 
-*Opsommen van alle input van het te bouwen BI systeem*
+*Opsommen van alle input voor het te bouwen BI systeem*
 
 #### Interfaces en gegevenstransport
 
-*Omschrijven van de interfaces. Push/Pull? Gebruik een Data Flow Diagram (DFD) indien nodig.*
+*Omschrijven van de interfaces. Push/Pull?  indien nodig.*
+
+#### Staging Area
+
+*Omschrijf in een paar zinnen hoe de staging area is opgezet.*
+
+#### Transformations
+
+*Omschrijf hier de pipeline voor het transformeren/opkuisen/groeperen/... van de datastromen*
 
 #### Datawarehouse
 
-*Technische documentatie van de DWH + architectuur model volgens Kimball*
+*Technische documentatie van de DWH + architectuur model volgens Kimball/Data Vault + Klassendiagram relationeel model (minstens derde normaalvorm)*
 
-#### Datamodel
-
-*Klassendiagram relationeel model*
-
-#### Analysemodel
+#### Data marts
 
 *Technische documentatie van de data mart(s) + klassendiagram dimensioneel model*
 
 #### BI User interface
 
-*Omschrijving van de software nodig voor BI Tools.*
+*Omschrijf hoe een lid van de doelgroep de BI Tools moet gebruiken en hoe aan de functionele vereisten wordt voldaan.*
 
 ### Plan
 
-*Uitwerken wanneer wat gedaan gaat worden, mag in diagram of tabel. Taken moeten duidelijk zijn uit vorige paragrafe*
+*Uitwerken wanneer wat gedaan gaat worden, mag in diagram of tabel. Taken moeten duidelijk zijn uit vorige paragrafen*
 
 ### Bronvermelding

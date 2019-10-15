@@ -10,9 +10,9 @@ Het probleem begint te ontstaan als je spreekt van de onderneming en zijn concur
 
 Men spreekt van **bevoorradingsketens** (supply chains) maar in feite gaat het tegenwoordig niet langer om ketens maar om heuse netwerken. Waarom is dit belangrijk? Omdat...
 
-> Het succes van een onderneming hangt steeds meer af van het succes van de bevoorradingsketen. In plaats van een wereld van ondernemingen die in competitie staan met elkaar kan men dus steeds vaker spreken van bevoorradingsketens die in competitie staan.
+> Het succes van een onderneming hangt steeds meer af van het succes van de bevoorradingsketen. In plaats van een wereld van ondernemingen die in competitie staan met elkaar kan men dus spreken van bevoorradingsketens die in competitie staan.
 
-Herinner je je dat het voorname doel van Business Intelligence was om competitiever te zijn. Dat betekent dus ook dat we de werking van bevoorradingsnetwerken zullen moeten begrijpen.
+Herinner je je dat het voornaamste doel van Business Intelligence was om competitiever te zijn. Dat betekent dus ook dat we de werking van bevoorradingsnetwerken zullen moeten begrijpen.
 
 > Behalve de bevoorradingsnetwerken zijn er nog vele afhankelijkheden waar een bedrijf mee moet rekening houden. De belangrijkste hebben met wetgeving (legislation) en met politiek (internationale prijsafspraken en handelsverdragen) te maken. Deze afhankelijkheden kunnen *bepalend* zijn voor de overlevingskansen van een bedrijf.
 >
