@@ -18,3 +18,4 @@
 - [Transformatie van gegevens](BI_07_Transformaties.md)
 - [De DWH](BI_08_DWH.md)
 - [Data marts](BI_09_Data_Marts.md)
+- [Data visualisatie](BI_10_Visualisatie.md)
