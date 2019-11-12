@@ -52,7 +52,7 @@ Op dit moment zijn er cijfers beschikbaar van de verkoop van chips en guacamole 
 
 - SSAS/SSIS project met staging area, ETL rules en DWH
 - OLAP met Tijd en/of staat in Excel
-- Rapport met voorspellingen en analyse van voorspellende waarde- 
+- Rapport met voorspellingen en analyse van voorspellende waarde
 
 ### Functioneel Design
 
@@ -65,7 +65,7 @@ Op dit moment zijn er cijfers beschikbaar van de verkoop van chips en guacamole 
 
 #### Niet van toepassing
 
-*Opsommen wat niet binnen de opdracht valt. Bijvoorbeeld het voor zien van de server of de nodige software, … Max. 300 woorden*
+*Opsommen wat niet binnen de opdracht valt. Bijvoorbeeld het voorzien van de server of de nodige software, … Max. 300 woorden*
 
 #### Functioneel design voor doelgroep A
 

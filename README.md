@@ -19,3 +19,7 @@
 - [De DWH](BI_08_DWH.md)
 - [Data marts](BI_09_Data_Marts.md)
 - [Data visualisatie](BI_10_Visualisatie.md)
+
+## Extra
+
+-[Extra material](BI_11_Extra.md)

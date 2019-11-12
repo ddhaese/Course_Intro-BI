@@ -43,3 +43,18 @@ door:
 ### Versionering
 
 Zorg ervoor dat de versie in de bestandsnaam overeenkomt met de versie aangegeven ín het versiebeheer.
+
+## BI project versus ML project
+
+Opgelet: Het doel van een BI project is om de data te centraliseren en te structureren alsook het aanleveren/voorstellen van een BI tool zodat eindgebruiker is staat is *zelf* op zoek te gaan naar antwoorden op zijn vragen. Binnen een ML project, daarentegen, houdt men zich gewoonlijk niet bezig met  data opslag en moet een *ML algoritme* helpen om patronen in de data te ontdekken waarvan de resultaten aan de eindgebruiker worden meegedeeld.
+
+## Wikipedia
+
+Alles wat de lezer kan terugvinden op Wikipedia moet ook op Wikipedia blijven. In een Blueprint als dit moet je specifiek jullie case bespreken en niet in algemeenheden vervallen. Het is natuurlijk wel OK om Wikipedia te citeren, maar geef dan enkel een korte uitleg (paar woorden) + een link. Ook voor schema's: zorg dat de schema's van toepassing zijn voor jullie specifieke case!
+
+## Reproduceerbaarheid
+
+Een blueprint is in feite een plan van aanpak. Voor deze blueprint moet je ervoor zorgen dat het voldoende reproduceerbaar is. Dit betekent dat:
+
+1. De minder-technische lezer in staat moet zijn te begrijpen wat precies de functionele vereisten zijn. Zo moet de klant kunnen controleren of jullie opvattingen van de vereisten stroken met hun verwachtingen.
+2. Technische profielen moeten in staat zijn om op basis van jullie technische omschrijving zelf aan de slag te gaan en zulke systemen op te zetten. Jullie moeten er dus voor zorgen dat alle informatie om dit te doen beschikbaar is.
